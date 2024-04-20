@@ -1,0 +1,108 @@
+.posts-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #000814;
+    overflow: hidden;
+  }
+  
+  .ellipse-1618 {
+    position: absolute;
+    width: 1298px; /* Size as per original design */
+    height: 1375px; /* Size as per original design */
+    bottom: calc(-1375px / 2.9); /* Offset to show the top-left quadrant */
+    right: calc(-1298px / 4); /* Reduced to shift the ellipse to the right */
+    background: radial-gradient(
+      closest-side at 67.43% 67.54%, 
+      rgba(104, 236, 237, 0.18) 0%, /* Slightly more intense light color */
+      rgba(0, 8, 20, 0.8) 100% /* Slightly more intense dark color */
+    );
+    /* The radial-gradient here is specified with the closest-side setting for a stronger gradient effect */
+  }
+  
+  .ellipse-1619-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45vw; /* Adjusted size according to the viewport */
+    height: 45vh; /* Adjusted size according to the viewport */
+    overflow: hidden;
+  }
+  
+  .ellipse-1619 {
+    position: absolute;
+    width: 150%; /* Adjusted size according to the container */
+    height: 150%; /* Adjusted size according to the container */
+    top: -30vh; /* Position adjusted to offset the top portion */
+    left: -45vw; /* Position adjusted to offset the left portion */
+    background: radial-gradient(50% 50% at 50% 50%, rgba(214, 214, 214, 0.3) 0%, rgba(0, 8, 20, 0.3) 100%);
+  }
+  
+  .posts-heading {
+    position: absolute;
+    width: 138px; /* Width as specified */
+    height: 33px; /* Height as specified */
+    left: 59px; /* Left position as specified */
+    top: 100px; /* Adjusted top position */
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Make text bold if desired */
+  }
+  
+  .create-user-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 200px; /* Adjusted to make the button smaller */
+    height: 50px; /* Adjusted to make the button smaller */
+    top: 100px; /* Adjusted top position */
+    right: 59px; /* Adjusted to align horizontally with the right of the screen */
+    background-color: #68ECED; /* Button color */
+    color: black; /* Text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 15px; /* Adjusted to make corners rounded */
+    font-family: 'Montserrat', sans-serif; /* Set font family to Montserrat */
+    font-weight: 400; /* Set font weight to semi-bold (600) */
+  }
+  
+  
+  .create-user-btn:hover {
+    background-color: #62d6d9; /* A slightly darker shade for hover effect */
+  }
+  
+  
+  .options-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 40px; /* Adjusted top position */
+    right: 100px; /* Adjusted right position */
+    z-index: 9999; /* Ensure options appear on top of other elements */
+  }
+  
+  .option {
+    font-family: 'Montserrat', sans-serif; /* Set font family */
+    font-size: 14px; /* Set font size */
+    font-weight: 200; /* Set font weight to semi-bold (600) */
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+    color: #fff; /* Default text color for unselected option */
+    margin: 0; /* Remove any default margin */
+  }
+  
+  
+  
+  .selected {
+    color: #68ECED; /* Text color for selected option */
+  }
+  
+  .separator {
+    color: #ffffff; /* Separator color */
+    margin: -4px 20px 0; /* Adjusted margin for spacing around separator */
+  }
+  
