@@ -229,7 +229,7 @@ function UsersPage() {
         className="create-post-btn"
         onClick={() => { setShowModal(true); setIsNewUser(true); }}
       >
-        + Create User
+        + CREATE USER
       </button>
       <div className="table-container" style={{ height: 'calc(100vh - 350px)' }}>
         <div className="table-scroll">
