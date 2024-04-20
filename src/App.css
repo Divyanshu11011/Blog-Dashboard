@@ -151,7 +151,7 @@ body {
   top: 55%; /* Middle of the page */
   transform: translate(-50%, -50%); /* Offset the container by half its width and height */
   max-width: 1300px;
-  max-height: 350px; /* Set a max width for the container */
+  max-height: 340px; /* Set a max width for the container */
   width: 100%; /* Use 100% of the max width */
   background: rgba(30, 34, 46, 0.35);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
