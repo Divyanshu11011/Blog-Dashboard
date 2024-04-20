@@ -167,7 +167,7 @@ const renderTableData = () => {
   return (
     <div className="posts-page">
       <h1 className="posts-heading">POSTS</h1>
-      <button className="create-post-btn" onClick={() => { setShowModal(true); setIsNewPost(true); }}>+ Create Post</button>
+      <button className="create-post-btn" onClick={() => { setShowModal(true); setIsNewPost(true); }}>+ CREATE POST</button>
       <div className="table-container">
         <div className="table-scroll">
           <table className="post-table">
