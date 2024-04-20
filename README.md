@@ -1,4 +1,4 @@
-# Blog Dashboard ([Live]([url](https://blog-dashboard-seven.vercel.app/)))
+# Blog Dashboard ([https://blog-dashboard-seven.vercel.app/](url))
 
 This project is a blog management dashboard built using React and Node.js. It allows users to manage blog posts and user profiles interactively. The dashboard features a dynamic user interface for creating, editing, and deleting posts and managing user details.
 
