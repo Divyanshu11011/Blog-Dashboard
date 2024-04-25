@@ -12,8 +12,6 @@ This project is a blog management dashboard built using React and Node.js. It al
 ## Technologies Used
 
 - **Frontend**: React, CSS
-- **Backend**: Node.js, Express
-- **Database**: MongoDB (assumed based on the technology stack)
 - **APIs**: Utilizes JSONPlaceholder for simulating API responses for posts and users.
 
 ## Setup and Installation
