@@ -4,7 +4,7 @@
 This project is a blog management dashboard built using React and Node.js. It allows users to manage blog posts and user profiles interactively. The dashboard features a dynamic user interface for creating, editing, and deleting posts and managing user details.
 
 ## Features
-
+On Base Url :- https://jsonplaceholder.typicode.com/
 - **Post Management**: Users can create, edit, and delete blog posts. Each post includes a title, body, and associated user information.
 - **User Management**: Manage user profiles, including adding new users and editing existing ones. User details include name, username, email, and contact information.
 - **Responsive Design**: The application includes responsive design elements, making it accessible on both desktop and mobile devices.
